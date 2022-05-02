@@ -4,16 +4,32 @@ using namespace std;
 
 int main()
 {
-	int MyMoney = 100;
-	int Operand = 10;
+	int Score = 0;
+	cin >> Score;
 
-	cout << MyMoney + Operand << endl;
-	cout << MyMoney - Operand << endl;
-	cout << MyMoney * Operand << endl;
-	cout << MyMoney / Operand << endl;
-	cout << MyMoney % Operand << endl;
+	//and &&
+	//or ||
 
-	cout << 10 + 2 * 20 << endl;
-	cout << 6 / 2 * (1 + 2) << endl;
+	if (Score >= 90 && Score < 100)
+	{
+		cout << "A" << endl;
+	}
+	else if (Score >= 80 && Score < 90)
+	{
+		cout << "B" << endl;
+	}
+	else if (Score >= 70 && Score < 80)
+	{
+		cout << "C" << endl;
+	}
+	else if (Score >= 60 && Score < 70)
+	{
+		cout << "D" << endl;
+	}
+	else
+	{
+		cout << "F" << endl;
+	}
+
 	return 0;
 }
