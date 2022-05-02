@@ -4,31 +4,16 @@ using namespace std;
 
 int main()
 {
-	//정수형 변수 사칙연산
+	int MyMoney = 100;
+	int Operand = 10;
 
-	int a = 2;
-	int b = 3;
+	cout << MyMoney + Operand << endl;
+	cout << MyMoney - Operand << endl;
+	cout << MyMoney * Operand << endl;
+	cout << MyMoney / Operand << endl;
+	cout << MyMoney % Operand << endl;
 
-	cout << a + b << endl;
-	cout << a - b << endl;
-	cout << a * b << endl;
-	cout << a / b << endl;
-	cout << a % b << endl;
-
-
-	//실수형 변수 사칙연산
-
-	using namespace std;
-
-	float kim = 1.2;
-	float lee = 2.3;
-
-	cout << kim + lee << endl;
-	cout << kim - lee << endl;
-	cout << kim * lee << endl;
-	cout << kim / lee << endl;
-	
-
-	
+	cout << 10 + 2 * 20 << endl;
+	cout << 6 / 2 * (1 + 2) << endl;
 	return 0;
 }
